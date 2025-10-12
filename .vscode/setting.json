@@ -1,0 +1,18 @@
+{
+    "python.defaultInterpreterPath": "D:\\Users\\yxf\\anaconda3\\envs\\pointcloud\\python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.extraPaths": [
+        "./scripts",
+        ".",
+        "${workspaceFolder}",
+        "${workspaceFolder}/scripts"
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.indexing": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "python.formatting.provider": "autopep8",
+    "python.analysis.typeCheckingMode": "off",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000
+}

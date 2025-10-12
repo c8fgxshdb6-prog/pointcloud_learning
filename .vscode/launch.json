@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 当前文件",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "args": []
+        },
+        {
+            "name": "Python: 点云可视化演示",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/pointcloud_visualizer.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: 点云处理演示",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/pointcloud_processor.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
